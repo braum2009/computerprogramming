@@ -20,7 +20,7 @@ def give_a_name():
     is_my_boolean = True 
     print(my_float + my_float)
 
-    my_declaration = ""
+    my_declaration = 
     my_initialization = "Hello world"
 
     add = 1 + 2

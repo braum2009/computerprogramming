@@ -1,4 +1,4 @@
-from numbers import Integral
+from numbers import Interger
 
 
 modulus = 10 % 3
@@ -24,5 +24,6 @@ third = 10 == 10
 forth = 100 >= 70
 fith = 497 <= 593
 sixth = 50 = 50 
+seventh =
 
 
