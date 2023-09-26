@@ -15,12 +15,12 @@ def give_a_name():
     my_float = 3.14
     my_float = 3.0
 
-    print{my_interger} + my_float
+    print (my_interger) (my_interger)  + my_float
 
     is_my_boolean = True 
     print(my_float + my_float)
 
-    my_declaration = 
+    my_declaration = "Hello people"
     my_initialization = "Hello world"
 
     add = 1 + 2
@@ -30,7 +30,7 @@ def give_a_name():
     modulo = 2 % 1 
     exponent = + 2 ** 3
 
-    print {modulo} 
+    print (modulo) 
 
     statement = 4 > 2
     statement2 = 4>= 2
@@ -44,7 +44,7 @@ def give_a_name():
  
 
     print(messege)
-print{messege2} 
+print("messege2")  
 
 # PEMMDAS
 
@@ -59,13 +59,13 @@ print(t)
 
 
 def my_function():
-print(" I am so great")
+ print(" I am so great")
 
 
 my_function()
 
 def add(num1, num2):
-print{num1 + num2}
+ print(num1 + num2)
 
 my_name = "tacocat"
 words = my_name.split("o")
@@ -81,6 +81,6 @@ print(difference)
 [1,2,3,4]
 {"name"}
 'bob'
-'job': 'janitor'
+'job =janitor'
 'is_male': True 
  
