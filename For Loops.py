@@ -34,4 +34,4 @@ numbers = [12,3,56,67,89,90]
 count = 0
 for n in numbers:
     for c in count:
-        print(nj)
+        print
