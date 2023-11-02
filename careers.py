@@ -10,7 +10,9 @@ computer_programiing_team = {
     "senior_devolepment": {
         "name": "Dwight",
         "duties": ["train", "assist", "develop"]
-    }
+    "senior_devlopment":}{
+        "name": "Ryan",
+        "duties": ["learn", "develop"]
     "client":{
         "name": "Jan",
         "duties": ["propose", "critique", "request"]
@@ -19,4 +21,5 @@ computer_programiing_team = {
         "name":"Micheal",
         "duties": ["manage", "mediate", "advocate"]
     }
-}    
+}
+
