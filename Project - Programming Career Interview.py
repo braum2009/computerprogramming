@@ -44,10 +44,5 @@ print(f"Did you take any risks with this job?"{did_you}
 print(f"When do you plan on retiring?"{retrei_time}
 print(f"Would you choose this job for another?"{different_job}
 print(f"Do you regret choosing this job over be a tech guy at one of the biggest facilitys in the country"{regretfulness}
-print(f
-print(f
-print(f
-print(f
-print(f
-print(f
-print(f
+print(f"What is your disired position?"{position}
+print(f"How many years of experience do you have?"{experience}
