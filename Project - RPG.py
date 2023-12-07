@@ -4,23 +4,29 @@ admin = input("what is your name? ")
 
 print(f"Nice to meet you {admin}!")
 
-# print statement that asks them to enter a w or i
-walk = input("to walk press w or i ")
+player_health = 100
+inventory = []
+enemy_health = 100
 
-# print that states they are walking
-print ("Nice job your a starting to get the hang of it")
+while True:
+    # print that states they are walking
+    continue_walking = input("Nice job you're starting to get the hang of it. to walk press w or press i to see your inventory ")
+    if continue_walking == 'w':
+        print("What a great day for a walk.")
+    elif continue_walking == 'i':
+        print(f"You have {player_health} health and {inventory} in your inventory.")
+    # 3 different prints that says you ran into an enemy\
+    print ("watch out there is a mud monster")
+    print ("watch out there is a spider")
+    print ("watch out there is a dragon ")
 
-# 3 different prints that says you ran into an enemy\
-print ("be careful there is an enemy near by watch out!")
-print ("there is a way of detecting enemys if you see mud tracks there is someone near by watch out!")
-print ("There is a item in the game that can be useful but used against you it can track player watch out somoen found you!")
+    # input that asks if you want to fight or run
 
-option = input("would you like to fight or run")
+    option = input("would you like to fight or run")
 
 
-# input that asks if you want to fight or run
 
-print(f" are you sure this enemy is a lvl 10 threat {admin}")
+    print(f" are you sure this enemy is a lvl 10 threat {admin}")
 
 
 
