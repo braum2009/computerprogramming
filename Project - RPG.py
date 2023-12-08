@@ -27,24 +27,3 @@ while True:
 
 
     print(f" are you sure this enemy is a lvl 10 threat {admin}")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
