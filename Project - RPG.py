@@ -30,15 +30,14 @@ while True:
                     enemy_attack = random.randint(1, 10)
                     player_health = player_health - enemy_attack 
                     enemy_health = enemy_health - player_attack
-                    print(f "You have{player_health} health and the enemy has
-                          {enemy_health} health") 
-                          if player_health <= 0:
-                          print("you have died")
-                          break
-                          elif enemy_health <= 0:
-                          print("you have the killed the enemy")
-                          break
-                          
+                    print(f "You have{player_health} health and the enemy has {enemy_health} health") 
+                    if player_health <= 0:
+                        print("you have died")
+                        break
+                    elif enemy_health <= 0:
+                        print("you have the killed the enemy")
+                        break
+                    
     elif continue_walking == 'i':
         print(f"You have {player_health} health and {inventory} in your inventory.")
     # 3 different prints that says you ran into an enemy\
