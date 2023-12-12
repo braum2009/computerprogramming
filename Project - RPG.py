@@ -21,35 +21,48 @@ while True:
             print("watch out there is a spider")
         elif enemy_chance == 3:
             print("watch out there is a dragon")
-
-            fight_option = input ("would you like to fight or run:f or r")
-            if fight_option == 'f':
-                print("you have chosen to fight")
-                while True:
-                    player_attack = random.randint(1, 10)
-                    enemy_attack = random.randint(1, 10)
-                    player_health = player_health - enemy_attack 
-                    enemy_health = enemy_health - player_attack
-                    print(f "You have{player_health} health and the enemy has {enemy_health} health") 
-                    if player_health <= 0:
-                        print("you have died")
-                        break
-                    elif enemy_health <= 0:
-                        print("you have the killed the enemy")
-                        break
+        fight_option = input ("would you like to fight or run:f or r")
+        if fight_option == 'f':
+            print("you have chosen to fight")
+            while True:
+                player_attack = random.randint(1, 10)
+                enemy_attack = random.randint(1, 10)
+                print(f"You attack the enemy for{player_attack} damage amd the enemy attacks you for {enemy_attack} damage")  
+                player_health = player_health - enemy_attack
+                enemy_health = enemy_health - player_attack 
+                if player_health <=0:
+                    print("you have died")
+                    exit()
+                elif enemy_health <= 0:
+                    print("you have killed the enemy")
+                    break
+                print(f"You have{player_health} health and the enemy has {enemy_health} health") 
+                if player_health <= 0:
+                    print("you have died")
+                    break
+                elif enemy_health <= 0:
+                    print("you have the killed the enemy")
+                    break
+        elif fight_option == 'r':
+            run_chance = random.randint(1, 2)
+            print("you have chosen to run")
+            if run_chance == 
+            print("You have sucessfully ran away")
+        elif run_chance == 2:
+            
                     
-    elif continue_walking == 'i':
+              elif continue_walking == 'i':
         print(f"You have {player_health} health and {inventory} in your inventory.")
     # 3 different prints that says you ran into an enemy\
     print ("watch out there is a mud monster")
     print ("watch out there is a spider")
-    print ("watch out there is a dragon ")
+    print ("watch out there is a dragon ") 
+
 
     # input that asks if you want to fight or run
 
-    option = input("would you like to fight or run")
+    option = input("would you like to fight or run") 
 
 
 
-    print(f" are you sure this enemy is a lvl 10 threat {admin}")
-
+    print(f" are you sure this enemy is a lvl 10  {admin}")
